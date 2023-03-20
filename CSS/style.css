@@ -74,7 +74,8 @@ body{
 .subsect{
     border: 1px groove #9773FB;
     color: #9773FB;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 49vw
 }
 
@@ -88,4 +89,10 @@ body{
     border: 1px groove #9773FB;
     color: #9773FB;
     width: 49vw;
+}
+
+@media (max-height:700px) {
+    #form{
+        margin-bottom: 200px;
+    }
 }
