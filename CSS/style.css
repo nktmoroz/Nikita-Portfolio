@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: black;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.nav{
+    border: 1px groove #9773FB;
+    text-align: center;
+    color: #9773FB;
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*position: absolute;*/
+    bottom: 0;
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+#form{
+    height: 40vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    color: #9773FB;
+}
+
+#logo{
+    height: 35px;
+    padding-top: 4%;
+}
+
+.main{
+    justify-content: center;
+}
+
+#title{
+    margin-top: 10px;
+    text-align: center;
+    color: #9773FB;
+}
+
+#head-img{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+#main-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.subsect{
+    border: 1px groove #9773FB;
+    color: #9773FB;
+    padding-left: 20px;
+    width: 49vw
+}
+
+#project-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10px;
+}
+
+.project-box{
+    border: 1px groove #9773FB;
+    color: #9773FB;
+    width: 49vw;
+}
