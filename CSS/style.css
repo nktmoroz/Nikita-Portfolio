@@ -39,7 +39,6 @@ body{
 #form{
     height: 40vw;
     padding-top: 5vw;
-    padding-bottom: 5vw;
     color: #9773FB;
 }
 
@@ -91,8 +90,8 @@ body{
     width: 49vw;
 }
 
-@media (max-height:700px) {
+@media (max-height:1000px) {
     #form{
-        margin-bottom: 200px;
+        padding-bottom: 700px;
     }
 }
